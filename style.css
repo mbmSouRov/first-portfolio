@@ -1,0 +1,37 @@
+body {
+  font-family: "Gentium Book Plus", serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+#myName {
+  color: blueviolet;
+}
+.fistOne {
+  width: 50%;
+}
+.secondOne {
+  width: 50%;
+  text-align: center;
+}
+
+#image1 {
+  height: 100%;
+  width: 85%;
+}
+.Upper-Section {
+  display: flex;
+  padding: 2% 5%;
+  background-image: url(img/top-banner.png);
+  background-repeat: no-repeat;
+}
+.hireme-button {
+  text-decoration: none;
+  background-image: linear-gradient(blueviolet, #aa007a);
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-weight: 100;
+}
