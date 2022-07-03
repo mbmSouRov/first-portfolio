@@ -12,24 +12,44 @@ h1 {
 .fistOne {
   width: 50%;
 }
+.firstTwo {
+  width: 50%;
+  text-align: left;
+}
 .secondOne {
   width: 50%;
   text-align: center;
+}
+.secondTwo {
+  width: 50%;
 }
 
 #image1 {
   height: 100%;
   width: 85%;
 }
+#image2 {
+  height: 100%;
+  width: 65%;
+}
+
 .Upper-Section {
   display: flex;
   padding: 2% 5%;
   background-image: url(img/top-banner.png);
   background-repeat: no-repeat;
 }
+.Lower-Section {
+  display: flex;
+  padding: 2% 5%;
+  background-image: url(img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .hireme-button {
   text-decoration: none;
-  background-image: linear-gradient(blueviolet, #aa007a);
+  background-image: linear-gradient(blueviolet, purple);
   padding: 10px 40px;
   border-radius: 10px;
   color: whitesmoke;
